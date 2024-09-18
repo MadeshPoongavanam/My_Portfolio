@@ -1,5 +1,5 @@
 // List of roles to display in running text
-const roles = ["Java Programmer", "Python Programmer", "C Programmer"];
+const roles = ["Java Programmer", "C Programmer"];
 
 // Initialize the index to keep track of the current role
 let index = 0;
