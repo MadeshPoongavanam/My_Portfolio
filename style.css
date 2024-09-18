@@ -498,3 +498,52 @@ footer p {
         gap: 10px;
     }
 }
+/* Styling for Achievements heading */
+#achievements h2 {
+    color: #f4c10f;  /* Yellow color */
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Centering the Achievements section */
+#achievements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers the content horizontally */
+    justify-content: center;  /* Centers the content vertically */
+    margin-top: 50px;
+}
+
+.achievement-container {
+    display: flex;
+    flex-direction: column;  /* Ensure items are in column layout */
+    align-items: center;  /* Center items horizontally */
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.achievement-item {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.achievement-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.achievement-item h3 {
+    color: #f4c10f;  /* Yellow color for item titles */
+    margin: 10px 0;
+}
+
+.achievement-item p {
+    font-size: 16px;
+    color: #ddd;
+}
